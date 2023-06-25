@@ -63,9 +63,9 @@
 
 @media screen and (max-width:1170px){
     
-    #welcome{
-        font-size: xx-large 50px;
-    }
+    #welcome {
+    font-size: calc(2em + 50px); /* Adjust the value as per your preference */
+  }
 
     #smile1_b{
         position:absolute;
