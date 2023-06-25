@@ -64,7 +64,7 @@
 @media screen and (max-width:1170px){
     
     #welcome {
-    font-size: calc(2em); /* Adjust the value as per your preference */
+    font-size: 100px;
   }
 
     #smile1_b{
