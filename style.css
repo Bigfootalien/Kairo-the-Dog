@@ -1,4 +1,6 @@
-/*Basic design*/
+/*Default design*/
+
+/*index (unclosed)*/
 
 #smile1_b{
     position:absolute;
@@ -63,6 +65,7 @@
 
 @media screen and (max-width:1170px){
     
+    /*index (unclosed)*/
     #welcome {
         font-size: calc(2em + 50px); 
       }
