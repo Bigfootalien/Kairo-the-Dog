@@ -1,6 +1,8 @@
-/*Default design*/
+/*Default design---------------------------------------------------------------------*/
 
-/*index (unclosed)*/
+/*index*/
+
+/*Biography*/
 
 #smile1_b{
     position:absolute;
@@ -20,6 +22,8 @@
     top:240px;
     left:150px;
 }
+
+/*Gallary*/
 
 #smile1_g{
     position:absolute;
@@ -61,15 +65,18 @@
     width:200px;
 }
 
-/*Media Queries*/
+/*Media Queries-----------------------------------------------------------------------------*/
 
+
+/*Phone*/
 @media screen and (max-width:1170px){
     
-    /*index (unclosed)*/
+    /*index*/
     #welcome {
         font-size: calc(2em + 50px); 
       }
 
+    /*Biography*/
     #smile1_b{
         position:absolute;
         top:1px;
@@ -85,10 +92,12 @@
     
     #bio{
         position:absolute;
-        top:240px;
-        left:150px;
+        top:500px;
+        left:75px;
     }
     
+    
+    /*Gallary*/
     #smile1_g{
         position:absolute;
         left:175px;
@@ -127,12 +136,6 @@
         top:1px;
         height:200px;
         width:200px;
-    }
-    
-    #bio{
-        position:absolute;
-        top:500px;
-        left:75px;
     }
     
 }
