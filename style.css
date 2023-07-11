@@ -64,13 +64,13 @@
 @media screen and (max-width:1170px){
     
     #welcome {
-    font-size: 100px;
-  }
+        font-size: calc(2em + 50px); 
+      }
 
     #smile1_b{
         position:absolute;
         top:1px;
-        left:400px;
+        left:150px;
         height:675px;
     }
     
@@ -125,21 +125,11 @@
         height:200px;
         width:200px;
     }
-
-    #tobiofromhome{
-        font-size: 75px;
-    }
-
-    #togallaryfromhome{
-        font-size: 75px;
-    }
-
-    #tohomefrombio{
-        font-size: 75px;
-    }
-
-    #togallaryfrombio{
-        font-size: 75px;
+    
+    #bio{
+        position:absolute;
+        top:500px;
+        left:75px;
     }
     
 }
