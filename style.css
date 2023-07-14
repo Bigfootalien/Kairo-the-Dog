@@ -76,7 +76,7 @@
         font-size: calc(2em + 50px); 
       }
     #home-bio{
-        transform: scale(3);
+        transform: 150px;
     }
     /*Biography*/
     #smile1_b{
